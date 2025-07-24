@@ -7,6 +7,8 @@ Hardware for the beaglebone black --> stm32 --> LED light strip project
 * Main Power
 * STM32 power
 * RF network
+* USB Power
+
 
 Do I want the option to just power the MCU and not the LEDs? Probably
 How would I do that?
