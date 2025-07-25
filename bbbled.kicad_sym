@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "ANT"
-			(at -1.778 0 0)
+			(at -1.27 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "PCB Trace Antenna"
+			(at 6.096 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "See AN5129"
+			(at 9.906 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Meander Antenna"
+			(at 12.446 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,7 @@
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 0.0254)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -105,15 +105,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -3.048 1.016 0)
+			(at -12.954 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Molex 2.54 2-rows 10-pins"
+			(at 0 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,8 +138,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Pin Header, Shrouded, Signal, Wire-to-Board, 2.54 mm, 2 Rows, 10 Contacts, Through Hole Straight"
+			(at -0.254 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,15 +495,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 3.302 1.27 0)
+			(at 3.302 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "WS2812 3x1 Header"
+			(at 4.572 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,26 +593,17 @@
 				)
 			)
 		)
-		(symbol "LED_PLUG_0_1"
+		(symbol "LED_PLUG_1_1"
 			(rectangle
 				(start 0 0)
 				(end 7.62 -10.16)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "LED_PLUG_1_1"
-			(text "CONN JACK R/A PCB 5.5X2.1MM"
-				(at 3.302 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
