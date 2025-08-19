@@ -1,0 +1,5 @@
+!*.pdf
+!*.svg
+!Review
+!*.kicad_*
+fp-info-cache
