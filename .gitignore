@@ -1,5 +1,8 @@
-!*.pdf
-!*.svg
-!Review
-!*.kicad_*
-schematic.svg
+*-backups
+*.pretty
+*.bak
+fp-info-cache
+fp-lib-table
+sym-lib-table
+*.kicad_sym
+*.kicad*
