@@ -1,6 +1,8 @@
 # BBBLedHW
 Hardware for the beaglebone black --> stm32 --> LED light strip project
 
+TODO - remove all files bar pdf of schematic and actual kicad schematic and pcb files. Don't need everything else stored on git...
+
 ## Subsystems
 * STM32 Serial Wire Debug
 * LED Light Strip
