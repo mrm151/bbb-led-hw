@@ -6215,8 +6215,8 @@
 		(uuid e5ccec3f-18e4-40de-98a5-9148b40fb75d)
 	)
 	(rectangle
-		(start 118.745 133.35)
-		(end 166.37 188.595)
+		(start 107.696 121.92)
+		(end 166.37 197.104)
 		(stroke
 			(width 0)
 			(type default)
@@ -6298,7 +6298,7 @@
 	)
 	(text "Debug Perhiperals"
 		(exclude_from_sim no)
-		(at 132.334 135.89 0)
+		(at 140.716 126.238 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6443,6 +6443,12 @@
 		(uuid "3d19db3c-a433-4622-8c4d-a0617e6fa04c")
 	)
 	(junction
+		(at 114.3 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e55e769-0cf0-44b3-95bc-8a6d94c937fe")
+	)
+	(junction
 		(at 124.46 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6539,6 +6545,12 @@
 		(uuid "73cf27f9-1e9f-4548-8a51-055f6bc650cd")
 	)
 	(junction
+		(at 140.97 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77249c9e-d7a5-437f-a96b-b0512d1ab321")
+	)
+	(junction
 		(at 195.58 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6605,12 +6617,6 @@
 		(uuid "be936daf-6f08-43f3-b6cf-6720b809685d")
 	)
 	(junction
-		(at 124.46 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c136d42b-fafc-4662-b225-9113be6aeae3")
-	)
-	(junction
 		(at 60.96 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6641,10 +6647,16 @@
 		(uuid "d31b0503-d542-4c6b-9088-c4329cd0a6de")
 	)
 	(junction
-		(at 133.35 167.64)
+		(at 129.54 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d44f3e9c-0525-4001-997f-87bfa84e4e33")
+	)
+	(junction
+		(at 120.65 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4cb3727-9bdd-4ff5-97fe-2e437c3c977a")
 	)
 	(junction
 		(at 76.2 36.83)
@@ -6683,7 +6695,7 @@
 		(uuid "e2e4a78c-3ed9-4add-ae06-6a171d6f09b3")
 	)
 	(junction
-		(at 124.46 179.07)
+		(at 120.65 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea3680c6-2a17-4af7-b9f0-4b5969ab7a40")
@@ -6693,6 +6705,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec8da0e0-a2e4-4d20-b52e-5f0accc45a55")
+	)
+	(junction
+		(at 29.21 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edec3d03-dbd7-41e0-895d-c0a422c88377")
 	)
 	(junction
 		(at 261.62 21.59)
@@ -6958,7 +6976,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 167.64) (xy 124.46 167.64)
+			(xy 129.54 177.8) (xy 120.65 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6978,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 167.64) (xy 124.46 167.64)
+			(xy 115.57 177.8) (xy 120.65 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7048,16 +7066,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 144.78) (xy 125.73 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "144d25e9-d01f-4f38-907f-1cc9e9319a5d")
-	)
-	(wire
-		(pts
 			(xy 46.99 104.14) (xy 50.8 104.14)
 		)
 		(stroke
@@ -7115,6 +7123,16 @@
 			(type default)
 		)
 		(uuid "1c31bf6a-0b60-4bf2-91a3-c6f9c5b2019a")
+	)
+	(wire
+		(pts
+			(xy 140.97 158.75) (xy 140.97 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e73df24-af4d-47fe-8976-d32f6aee4b56")
 	)
 	(wire
 		(pts
@@ -7298,6 +7316,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 156.21) (xy 148.59 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cef1318-a314-4314-bd59-a2faa793911c")
+	)
+	(wire
+		(pts
 			(xy 162.56 74.93) (xy 162.56 76.2)
 		)
 		(stroke
@@ -7398,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 176.53) (xy 124.46 179.07)
+			(xy 120.65 186.69) (xy 120.65 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7488,6 +7516,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 128.27) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bd8dad-655c-4060-a4c2-05fdd6eddf54")
+	)
+	(wire
+		(pts
 			(xy 21.59 153.67) (xy 35.56 153.67)
 		)
 		(stroke
@@ -7528,6 +7566,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 156.21) (xy 140.97 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47271286-dba7-454f-a8b2-b89654e87c2c")
+	)
+	(wire
+		(pts
 			(xy 278.13 78.74) (xy 278.13 80.01)
 		)
 		(stroke
@@ -7535,16 +7583,6 @@
 			(type default)
 		)
 		(uuid "472b5c04-25f3-4dfa-af00-fbf3bb88ed90")
-	)
-	(wire
-		(pts
-			(xy 146.05 144.78) (xy 162.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484c581a-5437-422a-a729-923df6cd81ea")
 	)
 	(wire
 		(pts
@@ -7568,23 +7606,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 96.52) (xy 63.5 96.52)
+			(xy 20.32 96.52) (xy 29.21 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48a412c4-f865-4f22-8b40-1cdaa510f711")
-	)
-	(wire
-		(pts
-			(xy 133.35 144.78) (xy 138.43 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bf8ef4-9b1f-46bb-8f09-ade736cf942e")
 	)
 	(wire
 		(pts
@@ -7598,6 +7626,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 166.37) (xy 140.97 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b44a11c-fdbd-4aa3-a6ef-020dc1e070d3")
+	)
+	(wire
+		(pts
 			(xy 243.84 142.24) (xy 243.84 139.7)
 		)
 		(stroke
@@ -7608,7 +7646,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 179.07) (xy 133.35 179.07)
+			(xy 120.65 189.23) (xy 129.54 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7625,6 +7663,16 @@
 			(type default)
 		)
 		(uuid "4c664fc3-4bd3-4bcd-9a9d-d8848c111964")
+	)
+	(wire
+		(pts
+			(xy 156.21 128.27) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb304bd-6249-4e76-bf45-ccae92b206ae")
 	)
 	(wire
 		(pts
@@ -7655,6 +7703,16 @@
 			(type default)
 		)
 		(uuid "4e047095-5772-4653-bb51-c9984edb0af4")
+	)
+	(wire
+		(pts
+			(xy 156.21 148.59) (xy 156.21 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0e4a9a-b548-499c-8fe7-eb4b8e9ab539")
 	)
 	(wire
 		(pts
@@ -7928,7 +7986,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 179.07) (xy 124.46 181.61)
+			(xy 120.65 189.23) (xy 120.65 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8028,16 +8086,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 152.4) (xy 138.43 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe8c39e-bcd6-4f88-b465-4af277b15f3a")
-	)
-	(wire
-		(pts
 			(xy 220.98 74.93) (xy 222.25 74.93)
 		)
 		(stroke
@@ -8108,6 +8156,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 156.21) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785f03ed-d3f5-453e-8c3f-a78718fb7f8e")
+	)
+	(wire
+		(pts
 			(xy 187.96 120.65) (xy 195.58 120.65)
 		)
 		(stroke
@@ -8158,7 +8216,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 179.07) (xy 133.35 176.53)
+			(xy 129.54 189.23) (xy 129.54 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8168,13 +8226,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 167.64) (xy 133.35 168.91)
+			(xy 129.54 177.8) (xy 129.54 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f62427f-f3ec-46b1-99fe-a9ec21301368")
+	)
+	(wire
+		(pts
+			(xy 29.21 96.52) (xy 63.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6e768c-7cb6-4f63-ac53-7eb3cb3e9921")
 	)
 	(wire
 		(pts
@@ -8208,6 +8276,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 148.59) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827c1ac0-34b5-44fd-b7b5-d71fb1b9b7e4")
+	)
+	(wire
+		(pts
 			(xy 25.4 72.39) (xy 27.94 72.39)
 		)
 		(stroke
@@ -8215,6 +8293,16 @@
 			(type default)
 		)
 		(uuid "832a588d-a7e4-471c-9079-7a836ff435ec")
+	)
+	(wire
+		(pts
+			(xy 156.21 138.43) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e3a98a-a706-4cde-aa43-9fbff3b6ce13")
 	)
 	(wire
 		(pts
@@ -8235,6 +8323,16 @@
 			(type default)
 		)
 		(uuid "85f82d3b-0a6b-4fef-923f-2ae238f4b20b")
+	)
+	(wire
+		(pts
+			(xy 29.21 104.14) (xy 29.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877b7a06-2cdd-4301-9a82-56395ae61c9b")
 	)
 	(wire
 		(pts
@@ -8305,6 +8403,16 @@
 			(type default)
 		)
 		(uuid "8d4223a7-feb4-45bc-a7cc-0c22d1efe5fb")
+	)
+	(wire
+		(pts
+			(xy 156.21 161.29) (xy 156.21 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d86494f-1b30-4509-a4cd-0a369efb8950")
 	)
 	(wire
 		(pts
@@ -8418,6 +8526,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 161.29) (xy 127 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e897af3-51ba-49de-955b-97a808d25a00")
+	)
+	(wire
+		(pts
 			(xy 19.05 36.83) (xy 19.05 38.1)
 		)
 		(stroke
@@ -8428,7 +8546,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 167.64) (xy 133.35 167.64)
+			(xy 132.08 177.8) (xy 129.54 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8458,6 +8576,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 156.21) (xy 114.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bc8f3f-25a0-432a-9c52-e5b5dfa3b7ef")
+	)
+	(wire
+		(pts
 			(xy 234.95 50.8) (xy 238.76 50.8)
 		)
 		(stroke
@@ -8465,6 +8593,16 @@
 			(type default)
 		)
 		(uuid "a767966a-f5b7-412f-8617-8ceaab0066b7")
+	)
+	(wire
+		(pts
+			(xy 114.3 166.37) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f523a1-e29a-489f-994f-6eed3db9c493")
 	)
 	(wire
 		(pts
@@ -8658,16 +8796,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 152.4) (xy 125.73 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b902f154-0ba6-4a2c-af3e-94b76b5bdf6b")
-	)
-	(wire
-		(pts
 			(xy 121.92 107.95) (xy 121.92 111.76)
 		)
 		(stroke
@@ -8735,16 +8863,6 @@
 			(type default)
 		)
 		(uuid "c1e0ff03-4b71-42f3-a902-3b523509cef7")
-	)
-	(wire
-		(pts
-			(xy 146.05 152.4) (xy 162.56 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ae1c8c-a274-442e-9a8c-82ab44b138a1")
 	)
 	(wire
 		(pts
@@ -8868,6 +8986,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 138.43) (xy 127 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67a280c-390a-4e31-bd56-66e1880d5696")
+	)
+	(wire
+		(pts
 			(xy 220.98 80.01) (xy 231.14 80.01)
 		)
 		(stroke
@@ -8988,13 +9116,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 167.64) (xy 124.46 168.91)
+			(xy 120.65 177.8) (xy 120.65 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4e8f5e0-18ff-4753-86f4-3e039c62ed8e")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 119.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e563e633-6f4f-4f55-990a-58a193fb6b5d")
 	)
 	(wire
 		(pts
@@ -9078,7 +9216,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 165.1) (xy 160.02 167.64)
+			(xy 156.21 175.26) (xy 156.21 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9118,7 +9256,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 167.64) (xy 160.02 167.64)
+			(xy 152.4 177.8) (xy 156.21 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9168,7 +9306,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 167.64) (xy 146.05 167.64)
+			(xy 139.7 177.8) (xy 142.24 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9277,7 +9415,7 @@
 		(uuid "01f9f570-db6f-479b-8c25-a3ec17bd5090")
 	)
 	(label "MCU_BOOT0"
-		(at 119.38 167.64 0)
+		(at 115.57 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9537,12 +9675,12 @@
 		(uuid "bd6cfe51-0dbc-40d4-a65f-0aebf5c4b5b0")
 	)
 	(label "MCU_LED_2"
-		(at 162.56 152.4 180)
+		(at 135.89 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c4d312b5-3f77-477e-88bb-68b2654c9ee3")
 	)
@@ -9607,12 +9745,12 @@
 		(uuid "f31a8874-f911-42e6-8a00-653841077e68")
 	)
 	(label "MCU_LED_1"
-		(at 162.56 144.78 180)
+		(at 110.49 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f8554c22-153c-4d69-b5b6-f3d78578f3ee")
 	)
@@ -9643,7 +9781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 107.95 0)
 			(effects
 				(font
@@ -9662,6 +9800,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05ACG1H100JN/11258418"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05ACG1H100JN"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -9845,7 +10019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.3052 34.29 0)
 			(effects
 				(font
@@ -9864,6 +10038,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 53.34 30.48 0)
 			(effects
 				(font
@@ -10046,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 208.28 144.78 0)
 			(effects
 				(font
@@ -10100,6 +10310,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/onsemi/2n7002/244345"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2N7002"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.83"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c462a3a6-a4de-42d5-9353-b55a2700b29f")
 		)
@@ -10120,7 +10366,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 152.4 90)
+		(at 127 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10128,23 +10374,23 @@
 		(dnp no)
 		(uuid "16103243-3505-4691-aa97-77c495700360")
 		(property "Reference" "R7"
-			(at 126.746 147.32 90)
+			(at 121.92 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 127 149.606 90)
+		(property "Value" "160"
+			(at 122.428 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 154.178 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 128.778 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 152.4 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10408,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 152.4 0)
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/ERJ-2RKF1600X/1746128"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1600X"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,6 +10516,42 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/umw/usblc6-2sc6/16705896"
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "USBLC6-2SC6"
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UMW"
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.51"
 			(at 213.36 34.29 0)
 			(effects
 				(font
@@ -10382,6 +10700,42 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 256KB RAM, 64 MHz, 1.71-3.6V, 30 GPIO, UFQFPN48"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/stmicroelectronics/stm32wb55ceu6/9919555"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32WB55CEU6"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "11.68"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -10548,7 +10902,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 142.24 144.78 180)
+		(at 156.21 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10556,7 +10910,7 @@
 		(dnp no)
 		(uuid "1ff6541a-6904-4eba-8616-c130cbd0382c")
 		(property "Reference" "D2"
-			(at 141.732 138.43 0)
+			(at 162.56 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,15 +10918,15 @@
 			)
 		)
 		(property "Value" "LED_RED"
-			(at 144.526 140.462 0)
+			(at 160.528 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 144.78 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 144.78 0)
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10590,7 +10944,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 142.24 144.78 0)
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10953,43 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 144.78 0)
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817"
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C190KRKT"
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +11235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 118.11 29.21 0)
 			(effects
 				(font
@@ -10865,6 +11255,42 @@
 		)
 		(property "Description" "Inductor"
 			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/LQG15HS2N7S02D/662864"
+			(at 118.11 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQG15HS2N7S02D"
+			(at 118.11 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 118.11 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 118.11 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +11341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 42.8752 34.29 0)
 			(effects
 				(font
@@ -10934,6 +11360,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -10984,7 +11446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.1252 149.86 0)
 			(effects
 				(font
@@ -11003,6 +11465,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -11052,7 +11550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:IND_CLF10060NIT-4R7N-D"
 			(at 240.03 80.01 0)
 			(effects
 				(font
@@ -11072,6 +11570,42 @@
 		)
 		(property "Description" "Inductor"
 			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/tdk-corporation/CLF10060NIT-4R7N-D/6236903"
+			(at 240.03 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CLF10060NIT-4R7N-D"
+			(at 240.03 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK Corporation"
+			(at 240.03 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "2.16"
+			(at 240.03 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +11722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.1652 34.29 0)
 			(effects
 				(font
@@ -11207,6 +11741,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 76.2 30.48 0)
 			(effects
 				(font
@@ -11314,7 +11884,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u 25V"
+		(property "Value" "10u"
 			(at 163.068 85.852 0)
 			(effects
 				(font
@@ -11323,7 +11893,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 161.5948 76.2 0)
 			(effects
 				(font
@@ -11350,6 +11920,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61E106KA73K"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.29"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbda5d35-493c-4a87-879c-0d5ab3670c8f")
 		)
@@ -11360,6 +11966,72 @@
 			(project "BBBLedHW"
 				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370d7c6c-37ed-4399-a372-61c0bc0c223b")
+		(property "Reference" "#PWR059"
+			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d3076c-ab09-4c43-be9a-8146f8494429")
+		)
+		(instances
+			(project ""
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -11563,6 +12235,242 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 29.21 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e956c95-ccac-4c7b-8296-52df160975ad")
+		(property "Reference" "C29"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 22.86 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 30.1752 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E101KH/1597261"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E101KH"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "283558ab-efba-4065-ab8e-05620a1d8dc5")
+		)
+		(pin "1"
+			(uuid "f64b0419-879f-4416-8625-49abd6d8d288")
+		)
+		(instances
+			(project "BBBLedHW"
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c99e02-29db-4b95-b2be-ee0faea819b4")
+		(property "Reference" "#PWR062"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f998eec-fad2-45a3-8ac3-aced31aee5bf")
+		)
+		(instances
+			(project "BBBLedHW"
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45c3bb58-31ca-4561-a90a-3d2357ec847e")
+		(property "Reference" "#PWR058"
+			(at 29.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.654 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1ae9d48-fb29-47b4-a217-7771d134d982")
+		)
+		(instances
+			(project ""
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 111.76 0)
 		(unit 1)
@@ -11623,6 +12531,111 @@
 			(project "BBBLedHW"
 				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47d0ab29-bae0-42b7-a548-a770e1869f8c")
+		(property "Reference" "R13"
+			(at 143.002 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.002 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 142.748 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402JR-0710KL/726418"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "506baf11-e59a-460c-8ec7-6595477a149c")
+		)
+		(pin "1"
+			(uuid "cee0ed79-db2d-44a0-acb8-1b7e0b1d9014")
+		)
+		(instances
+			(project "BBBLedHW"
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11711,7 +12724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "47u 6.3V"
 			(at 266.7 85.09 0)
 			(effects
 				(font
@@ -11720,7 +12733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.1252 88.9 0)
 			(effects
 				(font
@@ -11739,6 +12752,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/tdk-corporation/C2012X5R0J476M125AC/2443465"
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C2012X5R0J476M125AC"
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK Corporation"
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.04"
 			(at 264.16 85.09 0)
 			(effects
 				(font
@@ -11779,7 +12828,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 167.894 101.092 90)
 			(effects
 				(font
@@ -11787,7 +12836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.64 98.298 90)
 			(effects
 				(font
@@ -11807,6 +12856,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402FR-13330RL/14008370"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-13330RL"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 167.64 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +13007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 83.82 0)
 			(effects
 				(font
@@ -11941,6 +13026,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 173.99 80.01 0)
 			(effects
 				(font
@@ -11989,7 +13110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 75.8952 0)
 			(effects
 				(font
@@ -12009,6 +13130,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 226.06 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 226.06 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 226.06 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
+			(at 226.06 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,6 +13299,42 @@
 			)
 		)
 		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/texas-instruments/tps7a2433dbvr/11502221"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS7A2433DBVR"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.04"
 			(at 255.27 142.24 0)
 			(effects
 				(font
@@ -12307,7 +13500,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 160.02 165.1 0)
+		(at 156.21 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12316,7 +13509,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dbf6411-c324-47af-abe4-a6aec71104fa")
 		(property "Reference" "#PWR041"
-			(at 160.02 168.91 0)
+			(at 156.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,7 +13518,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 160.02 0)
+			(at 156.21 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12333,7 +13526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 165.1 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12342,7 +13535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 165.1 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,7 +13544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 165.1 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12389,7 +13582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "47u 6.3V"
 			(at 258.572 99.314 0)
 			(effects
 				(font
@@ -12398,7 +13591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 257.5052 97.79 0)
 			(effects
 				(font
@@ -12417,6 +13610,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/tdk-corporation/C2012X5R0J476M125AC/2443465"
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C2012X5R0J476M125AC"
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK Corporation"
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.04"
 			(at 256.54 93.98 0)
 			(effects
 				(font
@@ -12467,7 +13696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 192.278 82.55 90)
 			(effects
 				(font
@@ -12486,6 +13715,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/ERA-2AEB104X/1706053"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERA-2AEB104X"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 190.5 82.55 0)
 			(effects
 				(font
@@ -12669,7 +13934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.5248 40.64 0)
 			(effects
 				(font
@@ -12688,6 +13953,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/grm1555c1hr30wa01d/3694052"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM1555C1HR30WA01D"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.29"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -12739,7 +14040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 20.0152 34.29 0)
 			(effects
 				(font
@@ -12758,6 +14059,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 19.05 30.48 0)
 			(effects
 				(font
@@ -12874,6 +14211,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/LFB182G45CGFD436/14290092"
+			(at 135.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LFB182G45CGFD436"
+			(at 135.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.36"
+			(at 135.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d51f899f-3ff2-452d-b59f-5a989235fa48")
 		)
@@ -12923,7 +14287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.802 134.62 90)
 			(effects
 				(font
@@ -12942,6 +14306,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402FR-1333KL/13694100"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-1333KL"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 195.58 134.62 0)
 			(effects
 				(font
@@ -12993,7 +14393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.4452 34.29 0)
 			(effects
 				(font
@@ -13012,6 +14412,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 30.48 30.48 0)
 			(effects
 				(font
@@ -13062,7 +14498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:DIODE_DO214AA_MBRS-L"
 			(at 233.68 85.09 0)
 			(effects
 				(font
@@ -13082,6 +14518,42 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 233.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/vishay-general-semiconductor-diodes-division/SSB43L-E3-52T/1091561"
+			(at 233.68 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SSB43L-E3/52T"
+			(at 233.68 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Vishay General Semiconductor - Diodes Division"
+			(at 233.68 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.7"
+			(at 233.68 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,7 +14668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:WCAP-ASLI_5X5.5_DXL_"
 			(at 277.8252 33.02 0)
 			(effects
 				(font
@@ -13223,6 +14695,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/865080142007/5728067"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "865080142007"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.38"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5296e54-229b-416d-86d9-a185438f742b")
 		)
@@ -13233,6 +14741,111 @@
 			(project "BBBLedHW"
 				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71e32569-43c0-41bb-8f37-c80ba310350c")
+		(property "Reference" "R12"
+			(at 116.332 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 116.332 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.078 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402JR-0710KL/726418"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3bc3252-9ec3-45ee-814b-79f786acd9b8")
+		)
+		(pin "1"
+			(uuid "043b8bed-a627-45fc-8698-c86b3b0342cd")
+		)
+		(instances
+			(project ""
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13349,6 +14962,42 @@
 			)
 		)
 		(property "Description" "Nonsynchronous Step-Down Regulator 3 Amp Vout 5.0v SOIC-8"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.mouser.com/ProductDetail/Analog-Devices/ADP2303ARDZ-5.0-R7?qs=WIvQP4zGanhBp7gSLomcnw%3D%3D"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " ADP2303ARDZ-5.0-R7 "
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" " Analog Devices"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "5"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -13483,7 +15132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 177.8 96.52 0)
 			(effects
 				(font
@@ -13511,6 +15160,42 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C190KRKT"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 177.8 96.52 0)
 			(effects
 				(font
@@ -13725,6 +15410,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/onsemi/2n7002/244345"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2N7002"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.83"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63e2bd24-2e50-48a3-ac99-a7cf4be6a0cb")
 		)
@@ -13864,6 +15585,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "56973364-be74-4eb8-a960-757f73ecd451")
 		)
@@ -13910,7 +15658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 123.4948 40.64 0)
 			(effects
 				(font
@@ -13929,6 +15677,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/grm1555c1hr80ba01d/3694062"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM1555C1HR80BA01D"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.2"
 			(at 124.46 36.83 0)
 			(effects
 				(font
@@ -13979,7 +15763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.9952 149.86 0)
 			(effects
 				(font
@@ -13998,6 +15782,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 240.03 146.05 0)
 			(effects
 				(font
@@ -14048,7 +15868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.8752 40.64 0)
 			(effects
 				(font
@@ -14067,6 +15887,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/grm1555c1h1r2wa01d/3693935"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM1555C1H1R2WA01D"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.2"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -14118,7 +15974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.5952 34.29 0)
 			(effects
 				(font
@@ -14145,6 +16001,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d227495-19ff-412c-9643-c188bc17a626")
 		)
@@ -14162,7 +16054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 172.72 0)
+		(at 120.65 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14171,7 +16063,7 @@
 		(fields_autoplaced yes)
 		(uuid "838d0dae-ee4e-4a6e-8140-f575e404dea8")
 		(property "Reference" "R9"
-			(at 127 171.4499 0)
+			(at 123.19 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +16072,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 127 173.9899 0)
+			(at 123.19 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,8 +16080,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 122.682 172.72 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 118.872 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14198,7 +16090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 172.72 0)
+			(at 120.65 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,7 +16099,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 172.72 0)
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402FR-075K1L/726624"
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-075K1L"
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 120.65 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14387,7 +16315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 269.5448 142.24 0)
 			(effects
 				(font
@@ -14406,6 +16334,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 270.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
+			(at 270.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61E106KA73K"
+			(at 270.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 270.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.29"
 			(at 270.51 146.05 0)
 			(effects
 				(font
@@ -14457,7 +16421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.558 96.52 90)
 			(effects
 				(font
@@ -14476,6 +16440,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402FR-0713KL/726539"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0713KL"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -14526,7 +16526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 83.82 0)
 			(effects
 				(font
@@ -14545,6 +16545,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/CC0402KRX7R8BB103/2103075"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402KRX7R8BB103"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 184.15 80.01 0)
 			(effects
 				(font
@@ -14858,7 +16894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.558 86.36 90)
 			(effects
 				(font
@@ -14885,6 +16921,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402FR-0768KL/726651"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0768KL"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "856cea95-d734-4ccb-9b6d-433903b7d3aa")
 		)
@@ -14901,24 +16973,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 142.24 152.4 180)
+		(lib_id "power:GND")
+		(at 127 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a6bb3e6a-6d7f-4f10-bfc0-ba09939419cc")
-		(property "Reference" "D3"
-			(at 141.224 147.574 0)
+		(fields_autoplaced yes)
+		(uuid "a4bc79c9-8ba5-4590-8180-a893b183f28d")
+		(property "Reference" "#PWR060"
+			(at 127 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "LED_RED"
-			(at 144.018 149.352 0)
+		(property "Value" "GND"
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +17000,71 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 152.4 0)
+			(at 127 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92a40886-1b46-4d98-bfae-1816d2504924")
+		)
+		(instances
+			(project ""
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6bb3e6a-6d7f-4f10-bfc0-ba09939419cc")
+		(property "Reference" "D3"
+			(at 118.618 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RED"
+			(at 121.412 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14935,7 +17073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 152.4 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14944,7 +17082,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 142.24 152.4 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +17091,43 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 152.4 0)
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817"
+			(at 127 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C190KRKT"
+			(at 127 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 127 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
+			(at 127 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14984,10 +17158,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6d3b7a8-a2e9-4a71-9a3c-ef01697be2c9")
 		(property "Reference" "C14"
-			(at 24.13 99.0599 0)
+			(at 14.478 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14996,7 +17169,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 24.13 101.5999 0)
+			(at 14.478 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15004,7 +17177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.2852 104.14 0)
 			(effects
 				(font
@@ -15023,6 +17196,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 20.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 20.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 20.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 20.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 20.32 100.33 0)
 			(effects
 				(font
@@ -15071,7 +17280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -15090,6 +17299,42 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-320-8-37CKM/1693716"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ECS-320-8-37CKM"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ECS Inc."
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.89"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -15146,7 +17391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.1552 88.9 0)
 			(effects
 				(font
@@ -15165,6 +17410,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/CC0402KRX7R8BB103/2103075"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402KRX7R8BB103"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 250.19 85.09 0)
 			(effects
 				(font
@@ -15347,7 +17628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:WCAP-ASLI_5X5.5_DXL_"
 			(at 262.5852 33.02 0)
 			(effects
 				(font
@@ -15366,6 +17647,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/865080142007/5728067"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "865080142007"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.38"
 			(at 261.62 29.21 0)
 			(effects
 				(font
@@ -15417,7 +17734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.802 124.46 90)
 			(effects
 				(font
@@ -15436,6 +17753,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/ERA-2AEB104X/1706053"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERA-2AEB104X"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 195.58 124.46 0)
 			(effects
 				(font
@@ -15486,7 +17839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 107.95 0)
 			(effects
 				(font
@@ -15505,6 +17858,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05ACG1H100JN/11258418"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05ACG1H100JN"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -15712,6 +18101,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 173.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 173.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin ""
 			(uuid "2077b85a-90e3-495b-8d88-50ed6e34b9d6")
 		)
@@ -15750,7 +18166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:TENSILITY_54-00131"
 			(at 228.6 54.356 0)
 			(effects
 				(font
@@ -15769,6 +18185,42 @@
 			)
 		)
 		(property "Description" "CONN JACK R/A PCB 5.5X2.1MM"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/tensility-international-corp/54-00131/9685440"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "54-00131"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Tensility International Corp"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.82"
 			(at 227.33 53.34 0)
 			(effects
 				(font
@@ -15952,7 +18404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:CONN10_302-S101_OST"
 			(at 38.1 62.23 0)
 			(effects
 				(font
@@ -15971,6 +18423,42 @@
 			)
 		)
 		(property "Description" "Pin Header, Shrouded, Signal, Wire-to-Board, 2.54 mm, 2 Rows, 10 Contacts, Through Hole Straight"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/on-shore-technology-inc/302-S101/2178422"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "302-S101"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Shore Technology Inc."
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.47"
 			(at 38.1 62.23 0)
 			(effects
 				(font
@@ -16045,7 +18533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 244.8052 97.79 0)
 			(effects
 				(font
@@ -16064,6 +18552,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -16287,7 +18811,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 167.64 0)
+		(at 147.32 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16296,7 +18820,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce26bd47-7657-4665-bf6b-6ad10c2b0bea")
 		(property "Reference" "SW1"
-			(at 151.13 160.02 0)
+			(at 147.32 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16304,15 +18828,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 151.13 162.56 0)
+			(at 147.32 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 162.56 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+			(at 147.32 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16321,7 +18845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 162.56 0)
+			(at 147.32 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16330,7 +18854,43 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 167.64 0)
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/c-k/KMR231G-LFS/550477"
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KMR231G LFS"
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.06"
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16381,7 +18941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.072 152.4 90)
 			(effects
 				(font
@@ -16400,6 +18960,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0402JR-0710KL/726418"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
 			(at 196.85 152.4 0)
 			(effects
 				(font
@@ -16448,7 +19044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:XTAL_NX2012SA_NDK"
 			(at 130.81 99.06 0)
 			(effects
 				(font
@@ -16475,6 +19071,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ndk-nihon-dempa-kogyo-co-ltd/STDMUB1-32-768K/4914433"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STDMUB1-32.768K"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.82"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec04fdb8-430a-40f3-9d5e-f727f8041847")
 		)
@@ -16485,6 +19117,141 @@
 			(project ""
 				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 124.46 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d225995c-c053-46e7-9411-36f5f4d35597")
+		(property "Reference" "Q2"
+			(at 128.27 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 128.524 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 124.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 124.46 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/onsemi/2n7002/244345"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2N7002"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.83"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "56efb840-c7dc-44a0-97be-059e4ed435da")
+		)
+		(pin "2"
+			(uuid "8f2c14fb-367d-4302-8388-5f06fbec47b9")
+		)
+		(pin "1"
+			(uuid "d784ea65-d14d-454d-a9a1-3270264ec65e")
+		)
+		(instances
+			(project "BBBLedHW"
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16558,16 +19325,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 121.92 152.4 0)
+		(at 127 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6bd1614-187f-40b1-98eb-eacffaf053a1")
 		(property "Reference" "#PWR040"
-			(at 121.92 156.21 0)
+			(at 127 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16576,7 +19342,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.92 147.32 0)
+			(at 127 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,7 +19350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 152.4 0)
+			(at 127 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,7 +19359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 152.4 0)
+			(at 127 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +19368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 152.4 0)
+			(at 127 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16623,17 +19389,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 121.92 144.78 0)
+		(lib_id "power:GND")
+		(at 156.21 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9492e1f-fa42-46e5-9701-0e25a9ce65d6")
-		(property "Reference" "#PWR039"
-			(at 121.92 148.59 0)
+		(uuid "d77b797d-3dab-41de-93cc-d14c621b0782")
+		(property "Reference" "#PWR061"
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,8 +19407,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 121.92 139.7 0)
+		(property "Value" "GND"
+			(at 156.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16650,7 +19416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 144.78 0)
+			(at 156.21 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +19425,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 144.78 0)
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e193b12-3ae1-4451-9f7f-773b571a98b2")
+		)
+		(instances
+			(project "BBBLedHW"
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9492e1f-fa42-46e5-9701-0e25a9ce65d6")
+		(property "Reference" "#PWR039"
+			(at 156.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,7 +19499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 144.78 0)
+			(at 156.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16715,7 +19546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:DIODE_DO214AA_MBRS-L"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -16734,6 +19565,42 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/vishay-general-semiconductor-diodes-division/SSB43L-E3-52T/1091561"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SSB43L-E3/52T"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Vishay General Semiconductor - Diodes Division"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.7"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -16824,7 +19691,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 167.64 90)
+		(at 135.89 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16833,7 +19700,7 @@
 		(fields_autoplaced yes)
 		(uuid "dacf84a9-55d6-4c95-86b1-847b18644fc9")
 		(property "Reference" "R10"
-			(at 139.7 161.29 90)
+			(at 135.89 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16841,15 +19708,15 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 139.7 163.83 90)
+			(at 135.89 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 169.418 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16858,7 +19725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 167.64 0)
+			(at 135.89 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16867,7 +19734,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 167.64 0)
+			(at 135.89 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/delta-electronics-cyntec/PFR05S-221-FNH/9761550"
+			(at 135.89 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PFR05S-221-FNH"
+			(at 135.89 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Delta Electronics/Cyntec"
+			(at 135.89 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 135.89 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17075,6 +19978,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/texas-instruments/SN74LVC1T45DBVR/639455"
+			(at 82.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74LVC1T45DBVR"
+			(at 82.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 82.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.83"
+			(at 82.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d0f12ece-1488-434f-9674-cadb759d9e40")
 		)
@@ -17130,7 +20069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 65.7352 34.29 0)
 			(effects
 				(font
@@ -17149,6 +20088,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
 			(at 64.77 30.48 0)
 			(effects
 				(font
@@ -17263,7 +20238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bbbled:CONN_10118194-0001LF_AMP"
 			(at 196.85 35.56 0)
 			(effects
 				(font
@@ -17282,6 +20257,42 @@
 			)
 		)
 		(property "Description" "USB Type B connector"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/amphenol-cs-fci/10118194-0001LF/2785389"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "10118194-0001LF"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.77"
 			(at 193.04 34.29 0)
 			(effects
 				(font
@@ -17381,7 +20392,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 172.72 0)
+		(at 129.54 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17390,7 +20401,7 @@
 		(fields_autoplaced yes)
 		(uuid "e879fa5e-69e4-40b1-991c-c14d6147f451")
 		(property "Reference" "C19"
-			(at 137.16 171.4499 0)
+			(at 133.35 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17399,7 +20410,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 137.16 173.9899 0)
+			(at 133.35 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,8 +20418,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.3152 176.53 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.5052 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17417,7 +20428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 172.72 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17426,7 +20437,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 172.72 0)
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/kyocera-avx/KGM05AR71E104KH/3079747"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KGM05AR71E104KH"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.14"
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +20498,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 144.78 90)
+		(at 156.21 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17459,23 +20506,23 @@
 		(dnp no)
 		(uuid "edbd9bc4-d21f-48a0-ba0e-bfb72c44ce5b")
 		(property "Reference" "R8"
-			(at 127 139.954 90)
+			(at 150.876 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 127.508 142.24 90)
+		(property "Value" "160"
+			(at 151.638 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 146.558 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 157.988 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17484,7 +20531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 144.78 0)
+			(at 156.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17493,7 +20540,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 144.78 0)
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/ERJ-2RKF1600X/1746128"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1600X"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 156.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17609,7 +20692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 142.24 0)
 			(effects
 				(font
@@ -17636,6 +20719,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/GRT155R70J105KE01D/9867924"
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT155R70J105KE01D"
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1899baaa-bbe6-4241-8f81-a12666ccb58a")
 		)
@@ -17646,6 +20765,141 @@
 			(project "BBBLedHW"
 				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 153.67 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3dad2f2-0cdd-4d29-9228-c66e88e74aaf")
+		(property "Reference" "Q4"
+			(at 159.004 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 158.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 153.67 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 153.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 153.67 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/onsemi/2n7002/244345"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2N7002"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.83"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "77e47cb0-176b-4922-80ec-0c6b80e2d6f0")
+		)
+		(pin "2"
+			(uuid "57b53436-a5cd-4c4b-afc0-6f19867ef743")
+		)
+		(pin "1"
+			(uuid "e68c3822-f641-4544-a217-26c31a472dfa")
+		)
+		(instances
+			(project "BBBLedHW"
+				(path "/3f8ed1a2-08cc-4b33-bcea-326404f19c0b"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -17809,7 +21063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 162.56 29.21 0)
 			(effects
 				(font
@@ -17829,6 +21083,42 @@
 		)
 		(property "Description" "Inductor"
 			(at 162.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.co.nz/en/products/detail/murata-electronics/LQG15HS3N6S02D/2594221"
+			(at 162.56 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQG15HS3N6S02D"
+			(at 162.56 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 162.56 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 162.56 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17984,16 +21274,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 181.61 0)
+		(at 120.65 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc3a1c91-6680-480b-8ee4-2290d352f68d")
 		(property "Reference" "#PWR042"
-			(at 124.46 187.96 0)
+			(at 120.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18002,7 +21291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 186.69 0)
+			(at 120.65 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18010,7 +21299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 181.61 0)
+			(at 120.65 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18019,7 +21308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 181.61 0)
+			(at 120.65 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,7 +21317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 181.61 0)
+			(at 120.65 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
