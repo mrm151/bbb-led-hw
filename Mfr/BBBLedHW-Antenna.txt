@@ -1,0 +1,1 @@
+PCB Trace Antenna (Ant1) design to be followed as per AntennaSpecification.pdf.
